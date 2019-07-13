@@ -66,11 +66,6 @@ class Perceptron(object):
     def predict(self, X):
         """Return class label after unit step"""
         return np.where(self.net_input(X) >= 0.0, 1, -1)
-        
-        
-        
-        
-        
-        
-        
+             
 参考书<<Python Machine Learning>>
+看完这个算法后感觉有点吃力所以这几天再去看看Python语法
